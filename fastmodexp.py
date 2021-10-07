@@ -14,6 +14,9 @@
 # then g^a mod p can be written as a sequence by
 #   y_0 = x_0 mod p = g^(2^0) mod p = g mod p
 #   y_i+1 = (y_i)^2 mod p for i = 0 to (num_bit - 1)
+
+
+# g = base, a = exponenet, p = modulus, y = y_i from the sequence above
 def mod_exp(g, a, p):
     r = 1
     y = g % p
