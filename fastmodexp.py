@@ -23,3 +23,4 @@ def mod_exp(g, a, p):
         y = y**2 % p
         a >>= 1
     return r
+    
