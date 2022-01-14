@@ -1,7 +1,7 @@
 # g^a mod p
 # let i be the position of bit from the right(starting from 0)
 # let b_i be the bit of the binary representation of a
-# then g^a can be expressed as product of g^(b_i * 2^i) from 0 to (num_bit -1)
+# then g^a can be expressed as product of g^(b_i * 2^i); for i: 0 to (num_bit -1)
 # when b_i = 0, g^(b_i * 2^i) = g^0 = 1, so it can be ignored
 # when b_i = 1, g^(b_i * 2^i) = g^(2^i)
 # so, g^a can be expressed as product of g^(2^i) from 0 to (num_bit -1) where i != 0
